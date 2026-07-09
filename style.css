@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* i can't find font family in figma so i use it on my own thinking */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  /* max-width: 1300px;
+    margin: auto; */
+  padding: 12px 8%;
+}
+.common-btn {
+  color: #fff;
+  padding: 16px 45px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #1d4ed8;
+  cursor: pointer;
+}
+/* navbar starts */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+.nav-list ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+.nav-list li {
+  display: grid;
+  gap: 15px;
+}
+.nav-list ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-logo img {
+  height: 44px;
+  width: 134px;
+}
+/* navbar ends */
+
+/* header section starts */
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.1)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-items: center;
+}
+.header-content {
+  display: grid;
+  gap: 150px;
+  text-align: center;
+  color: white;
+}
+.header-content h1 {
+  font-size: 78px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 700;
+  line-height: 1.2;
+}
+.header-content-child {
+  margin-bottom: 70px;
+}
+.header-content-child p {
+  padding-top: 0.5%;
+  padding-bottom: 0.7%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: lch(84.79% 1.09 18.96);
+  line-height: 1.2;
+  font-size: 20px;
+}
+.header-btn {
+  position: relative;
+  top: 50px;
+  right: 5px;
+}
+.header-btn button {
+  font-size: 20px;
+}
+
+/* header section ends */

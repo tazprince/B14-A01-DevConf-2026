@@ -80,7 +80,7 @@ header {
   padding-top: 0.5%;
   padding-bottom: 0.7%;
   /* font-family: Arial, Helvetica, sans-serif; */
-  color: lch(84.79% 1.09 18.96);
+  color: rgb(201,202,202);
   line-height: 1.2;
   font-size: 20px;
 }
@@ -92,5 +92,54 @@ header {
 .header-btn button {
   font-size: 20px;
 }
-
 /* header section ends */
+
+/* speaker section starts */
+.speakers h1{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 1, 2);
+}
+.speaker-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 22px;
+}
+.speaker-card{
+    border: 2px solid lab(96.14% 1.34 0.46) ;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.speaker-card img{
+    width: 100%;
+    height: 335px;
+}
+.speaker-card:hover{
+    box-shadow:0 12px 20px rgba(0,0,0,.10);
+}
+.speaker-card-child{
+    display: grid;
+    gap: 5px;
+    padding: 18px;
+}
+.speaker-card-child small{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 700;
+}
+.speaker-card-child h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.speaker-card-child p{
+    font-size: 15px;
+    color: #575757;
+}
+
+/* speaker section ends */
+
+

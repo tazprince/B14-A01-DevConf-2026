@@ -239,6 +239,64 @@ hr {
   border-top: 1px solid #6a727b;
 }
 /* price section ends */
+/* Learning Path Section */
+
+.learning-path{
+    margin:100px auto;
+    text-align:center;
+}
+
+.learning-path h2{
+    font-size:48px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.learning-path p{
+    color:#6b7280;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:45px;
+}
+
+.path-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-bottom:45px;
+}
+
+.path-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:15px;
+    padding:30px;
+    text-align:left;
+    transition:.3s;
+}
+
+.path-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,.12);
+    border-color:#2563eb;
+}
+
+.path-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.path-card p{
+    font-size:16px;
+    color:#6b7280;
+    margin:0;
+}
+
+.learning-path button{
+    font-size:18px;
+    padding:16px 40px;
+}
 
 /* footer section starts  */
 footer{

@@ -302,12 +302,15 @@ hr {
 footer{
   background-color: rgb(13, 27, 42);
   margin-top: 50px;
+  height: 300px;
 }
 .footer-root{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  position: relative;
+  top: 5%;
 }
 .footer-logo img{
   height: 40px;
@@ -320,15 +323,16 @@ footer{
   color:white;
   font-size: 24px;
 }
-.footer hr{
+.footer-hr{
   margin : 30px;
 }
 .footer-copyright{
   display: grid;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  margin-top: 10px;
+  position: relative;
+  top: 50%;
+  right: 1%;
   color: #888888;
 }
 /* footer section ends */

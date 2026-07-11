@@ -6,8 +6,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  /* max-width: 1300px;
-    margin: auto; */
   padding: 12px 8%;
 }
 .common-btn {
@@ -70,7 +68,6 @@ header {
   font-size: 78px;
   font-weight: 700;
   line-height: 1.1;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .header-content-child {
   margin-bottom: 70px;
@@ -188,8 +185,8 @@ header {
   margin-bottom: 10px;
   margin-top: 15px;
 }
+/*I googled it and learned it because this thing not discussed in the class*/
 .not-pro-card ul li::marker {
-  /*I googled it*/
   color: rgb(96, 165, 250);
 }
 .not-pro-card ul {
@@ -241,70 +238,74 @@ hr {
 /* price section ends */
 /* Learning Path Section */
 
-.learning-path{
-    margin:100px auto;
-    text-align:center;
+.learning-path {
+  margin: 100px auto;
+  text-align: center;
 }
 
-.learning-path h2{
-    font-size:48px;
-    color:#111827;
-    margin-bottom:15px;
+.learning-path h2 {
+  font-size: 48px;
+  color: #111827;
+  margin-bottom: 15px;
 }
 
-.learning-path p{
-    color:#6b7280;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:45px;
+.learning-path p {
+  color: #6b7280;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 45px;
 }
 
-.path-container{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:25px;
-    margin-bottom:45px;
+.path-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 45px;
 }
 
-.path-card{
-    background:#ffffff;
-    border:1px solid #e5e7eb;
-    border-radius:15px;
-    padding:30px;
-    text-align:left;
-    transition:.3s;
+.path-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: left;
+  transition: 0.3s;
 }
 
-.path-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 12px 25px rgba(0,0,0,.12);
-    border-color:#2563eb;
+.path-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+  border-color: #2563eb;
 }
 
-.path-card h3{
-    font-size:24px;
-    margin-bottom:15px;
-    color:#111827;
+.path-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #111827;
 }
 
-.path-card p{
-    font-size:16px;
-    color:#6b7280;
-    margin:0;
+.path-card p {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
 }
 
-.learning-path button{
-    font-size:18px;
-    padding:16px 40px;
+.learning-path button {
+  font-size: 18px;
+  padding: 16px 40px;
+
+  /* Did the position in my own not ai */
+  position: relative;
+  right: 3px;
 }
 
 /* footer section starts  */
-footer{
+footer {
   background-color: rgb(13, 27, 42);
   margin-top: 50px;
   height: 300px;
 }
-.footer-root{
+.footer-root {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -312,21 +313,21 @@ footer{
   position: relative;
   top: 5%;
 }
-.footer-logo img{
+.footer-logo img {
   height: 40px;
 }
-.footer-icon{
+.footer-icon {
   display: flex;
   gap: 20px;
 }
-.footer-icon a{
-  color:white;
+.footer-icon a {
+  color: white;
   font-size: 24px;
 }
-.footer-hr{
-  margin : 30px;
+.footer-hr {
+  margin: 30px;
 }
-.footer-copyright{
+.footer-copyright {
   display: grid;
   justify-content: center;
   align-items: center;
